@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#087a38">
+  <meta name="description" content="CCTV Expert Multan provides CCTV cameras, installation, DVR/NVR setup, networking and after-sales support in Multan, Pakistan.">
+  <title>CCTV Expert Multan | Your Security, Our Priority</title>
+  <style>
+    :root{--green:#087a38;--deep:#064b28;--lime:#25a653;--pale:#eef8f1;--ink:#17251c;--muted:#617067;--white:#fff;--line:#dce8df}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:var(--deep);color:#fff;font-size:13px;padding:9px 5%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
+    .brand{display:flex;align-items:center;gap:10px;font-size:25px;font-weight:800;color:var(--deep);letter-spacing:-.6px}
+    .logo{width:45px;height:45px;border-radius:12px;background:var(--green);display:grid;place-items:center;color:#fff;font-size:24px}
+    .brand small{display:block;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:1px}
+    .links{display:flex;align-items:center;gap:22px;font-size:14px;font-weight:700}
+    .links a:hover{color:var(--green)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--green);color:#fff;padding:12px 19px;border-radius:8px;font-weight:700;border:2px solid var(--green);transition:.2s}
+    .btn:hover{background:var(--deep);border-color:var(--deep);transform:translateY(-1px)}
+    .btn.outline{background:transparent;color:var(--green)}
+    .hero{background:linear-gradient(115deg,#063c22 0%,#087a38 55%,#1e9a50 100%);color:#fff;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:28px;padding:70px 0}
+    .eyebrow{display:inline-block;background:#ffffff1c;border:1px solid #ffffff50;padding:6px 11px;border-radius:30px;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+    h1{font-size:clamp(34px,5vw,56px);line-height:1.08;margin:18px 0}
+    .hero p{font-size:17px;color:#e5f5e9;max-width:560px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+    .hero .btn{background:#fff;color:var(--deep);border-color:#fff}
+    .hero .btn.outline{background:transparent;color:#fff;border-color:#ffffff90}
+    .hero-visual{background:#ffffff12;border:1px solid #ffffff30;border-radius:24px;padding:22px;box-shadow:0 24px 60px #002d1740}
+    .camera-art{min-height:280px;display:grid;place-items:center;position:relative}
+    .camera-art .big-icon{font-size:130px;filter:drop-shadow(0 15px 10px #002c1755)}
+    .camera-label{position:absolute;background:#fff;color:var(--deep);padding:10px 14px;border-radius:12px;font-weight:800;box-shadow:0 8px 25px #002c1730}
+    .label-a{top:18px;left:8px}.label-b{right:0;top:90px}.label-c{bottom:8px;left:20%}
+    .trust{background:var(--pale);border-bottom:1px solid var(--line)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:22px 0}
+    .trust-item{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:700}
+    .trust-icon{width:42px;height:42px;border-radius:12px;background:#d9f0e0;display:grid;place-items:center;color:var(--green);font-size:21px;flex-shrink:0}
+    section{padding:70px 0}
+    .section-head{text-align:center;max-width:680px;margin:0 auto 35px}
+    .kicker{color:var(--green);font-size:12px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase}
+    h2{font-size:clamp(28px,4vw,38px);line-height:1.2;margin:9px 0 12px}
+    .section-head p,.muted{color:var(--muted)}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .card{border:1px solid var(--line);border-radius:15px;padding:23px;background:#fff;box-shadow:0 8px 24px #0b45200a}
+    .card .symbol{width:52px;height:52px;border-radius:14px;background:var(--pale);display:grid;place-items:center;font-size:26px;margin-bottom:15px}
+    .card h3{margin:0 0 8px;font-size:18px}
+    .card p{color:var(--muted);font-size:14px;margin:0}
+    .products{background:#f7fbf8}
+    .brand-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .brand-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:26px 16px;text-align:center}
+    .brand-mark{height:70px;display:grid;place-items:center;font-size:23px;font-weight:900;letter-spacing:-.8px}
+    .hik{color:#e1262f}.dahua{color:#d91f26}.imou{color:#f28b22}.ezviz{color:#1685c7}
+    .brand-card p{font-size:13px;color:var(--muted);margin:8px 0 0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    .about-panel{background:var(--pale);padding:30px;border-radius:20px}
+    .check-list{list-style:none;padding:0;margin:22px 0}
+    .check-list li{margin:10px 0}
+    .check-list li:before{content:"✓";color:var(--green);font-weight:900;margin-right:10px}
+    .contact{background:var(--deep);color:#fff}
+    .contact .section-head p{color:#d5e9dc}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:25px}
+    .contact-info,.contact-form{background:#ffffff0d;border:1px solid #ffffff2a;border-radius:17px;padding:26px}
+    .contact-row{display:flex;gap:13px;margin:18px 0;align-items:flex-start}
+    .contact-row .symbol{font-size:22px}
+    .contact-row strong{display:block}
+    .contact-row span{color:#d5e9dc;font-size:14px;overflow-wrap:anywhere}
+    label{display:block;font-size:13px;font-weight:700;margin:12px 0 6px}
+    input,textarea,select{width:100%;padding:12px 13px;border:1px solid #c8d9cd;border-radius:8px;font:inherit;background:#fff;color:var(--ink)}
+    textarea{min-height:110px;resize:vertical}
+    .contact-form .btn{margin-top:15px;cursor:pointer;width:100%}
+    footer{background:#032f19;color:#d4e7da;padding:25px 0;font-size:13px}
+    .footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .whatsapp{position:fixed;right:18px;bottom:18px;background:#20b65a;color:#fff;border-radius:50px;padding:13px 17px;font-weight:800;box-shadow:0 8px 25px #0003;z-index:20}
+    .menu-btn{display:none;background:var(--pale);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-weight:800;color:var(--deep)}
+    @media(max-width:850px){.links{gap:12px}.services{grid-template-columns:repeat(2,1fr)}.trust-grid{grid-template-columns:repeat(2,1fr)}.hero-grid{grid-template-columns:1fr;padding:50px 0}.hero-visual{max-width:600px;width:100%;margin:auto}.about-grid,.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:620px){.topbar{justify-content:center;text-align:center}.nav{flex-wrap:wrap}.brand{font-size:21px}.menu-btn{display:block}.links{display:none;width:100%;flex-direction:column;align-items:flex-start;padding:12px 0 5px}.links.open{display:flex}.nav .nav-cta{display:none}.hero-grid{padding:42px 0}.camera-art{min-height:220px}.camera-art .big-icon{font-size:100px}.label-a{top:8px}.label-b{top:70px}.label-c{bottom:0}.trust-grid{gap:12px}.trust-item{font-size:12px}.trust-icon{width:35px;height:35px}.services,.brand-grid{grid-template-columns:1fr 1fr}section{padding:52px 0}.card{padding:17px}.brand-card{padding:20px 10px}.contact-info,.contact-form{padding:20px}.whatsapp{right:12px;bottom:12px}}
+    @media(max-width:390px){.services,.brand-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span>📍 M.A. Jinnah Road, Chowk Kumhara Wala, Multan</span>
+    <span>☎ 0302 3558003 &nbsp; | &nbsp; ✉ usmanyamin26@gmail.com</span>
+  </div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="CCTV Expert Multan home"><span class="logo">◉</span><span>CCTV Expert<small>MULTAN · YOUR SECURITY, OUR PRIORITY</small></span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">☰ Menu</button>
+      <nav class="links" id="navLinks">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#products">Brands</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="btn nav-cta" href="https://wa.me/923023558003?text=Hello%20CCTV%20Expert%20Multan%2C%20I%20need%20CCTV%20information." target="_blank" rel="noopener">Get a Quote ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">CCTV Sales · Installation · Support</span>
+          <h1>Smart Security.<br><span style="color:#9be6b2">Peace of Mind.</span></h1>
+          <p>Your trusted CCTV solutions partner in Multan. We help protect homes, shops, offices and businesses with reliable cameras, professional installation and expert technical support.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/923023558003?text=Hello%20CCTV%20Expert%20Multan%2C%20please%20send%20me%20a%20quote." target="_blank" rel="noopener">Request a Quote →</a>
+            <a class="btn outline" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="CCTV security camera illustration">
+          <div class="camera-art">
+            <span class="camera-label label-a">HD & IP Cameras</span>
+            <span class="big-icon">📹</span>
+            <span class="camera-label label-b">24/7 Monitoring</span>
+            <span class="camera-label label-c">DVR · NVR · Networking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust"><div class="wrap trust-grid">
+      <div class="trust-item"><span class="trust-icon">✓</span><span>Professional Installation</span></div>
+      <div class="trust-item"><span class="trust-icon">⌂</span><span>Home & Business Security</span></div>
+      <div class="trust-item"><span class="trust-icon">◎</span><span>Remote Viewing Setup</span></div>
+      <div class="trust-item"><span class="trust-icon">☎</span><span>Local Support in Multan</span></div>
+    </div></div>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">What We Do</span><h2>Complete CCTV Solutions</h2><p>From choosing the right cameras to installation and ongoing support, we make security simple.</p></div>
+        <div class="services">
+          <article class="card"><div class="symbol">📷</div><h3>CCTV Camera Sales</h3><p>Options for homes, shops, offices, warehouses and commercial sites.</p></article>
+          <article class="card"><div class="symbol">🛠️</div><h3>Installation & Cabling</h3><p>Neat camera installation, cable routing, PoE switches and network links.</p></article>
+          <article class="card"><div class="symbol">🖥️</div><h3>DVR / NVR Setup</h3><p>Recording configuration, camera linking, playback and remote mobile viewing.</p></article>
+          <article class="card"><div class="symbol">🔧</div><h3>Repair & Support</h3><p>Troubleshooting for camera offline issues, video loss and system maintenance.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Brands We Work With</span><h2>Trusted Security Brands</h2><p>Ask us about product availability, specifications, warranty and pricing.</p></div>
+        <div class="brand-grid">
+          <article class="brand-card"><div class="brand-mark hik">HIKVISION</div><h3>Hikvision</h3><p>Security cameras and recording systems</p></article>
+          <article class="brand-card"><div class="brand-mark dahua">DAHUA</div><h3>Dahua</h3><p>Surveillance and video security solutions</p></article>
+          <article class="brand-card"><div class="brand-mark imou">imou</div><h3>IMOU</h3><p>Smart Wi-Fi cameras for everyday security</p></article>
+          <article class="brand-card"><div class="brand-mark ezviz">EZVIZ</div><h3>EZVIZ</h3><p>Smart cameras and connected home security</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-grid">
+        <div>
+          <span class="kicker">About CCTV Expert</span><h2>Your Security Is Our Priority</h2>
+          <p class="muted">CCTV Expert Multan helps customers choose, install and maintain surveillance systems that fit their property and needs. We focus on practical advice, careful setup and dependable local support.</p>
+          <ul class="check-list"><li>Solutions for residential and commercial properties</li><li>Camera, DVR/NVR and network configuration</li><li>Mobile remote-viewing assistance</li><li>Clear communication and customer support</li></ul>
+          <a class="btn" href="#contact">Talk to Us →</a>
+        </div>
+        <div class="about-panel"><span class="kicker">Local CCTV Services</span><h2>Need help choosing a system?</h2><p class="muted">Tell us the location, number of cameras and what you need to monitor. We can help you discuss a suitable setup and quotation.</p><p><strong>Service area:</strong> Multan, Pakistan</p><p><strong>Contact:</strong> Usman Yamin</p><a class="btn" href="https://wa.me/923023558003?text=Hello%2C%20I%20need%20help%20choosing%20a%20CCTV%20system." target="_blank" rel="noopener">Chat on WhatsApp ↗</a></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker" style="color:#9be6b2">Get In Touch</span><h2>Request a CCTV Quote</h2><p>Contact us for product information, installation or technical support.</p></div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <div class="contact-row"><span class="symbol">👤</span><div><strong>Usman Yamin</strong><span>CCTV Expert Multan</span></div></div>
+            <div class="contact-row"><span class="symbol">☎</span><div><strong>Phone / WhatsApp</strong><span>0302 3558003</span><br><a href="https://wa.me/923023558003" target="_blank" rel="noopener" style="color:#9be6b2">Message us on WhatsApp ↗</a></div></div>
+            <div class="contact-row"><span class="symbol">✉</span><div><strong>Email</strong><span><a href="mailto:usmanyamin26@gmail.com">usmanyamin26@gmail.com</a></span></div></div>
+            <div class="contact-row"><span class="symbol">📍</span><div><strong>Address</strong><span>M.A. Jinnah Road, Chowk Kumhara Wala, Multan, Pakistan</span></div></div>
+          </div>
+          <form class="contact-form" id="quoteForm">
+            <h3>Send Your Requirement</h3>
+            <label for="name">Your Name</label><input id="name" name="name" required placeholder="Enter your name">
+            <label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" required placeholder="Enter your phone number">
+            <label for="need">What do you need?</label><select id="need" name="need"><option>CCTV Camera Installation</option><option>Camera / DVR / NVR Price</option><option>Remote Viewing Setup</option><option>Repair / Technical Support</option><option>Other Enquiry</option></select>
+            <label for="message">Details</label><textarea id="message" name="message" placeholder="Number of cameras, site type, or your question"></textarea>
+            <button class="btn" type="submit">Send Enquiry by Email →</button>
+            <p style="font-size:12px;color:#d5e9dc;margin-bottom:0">This form opens your email app with your enquiry filled in. It does not store or submit information to a server.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-row"><span><strong>CCTV Expert Multan</strong> · Your Security, Our Priority</span><span>© <span id="year"></span> CCTV Expert. All rights reserved.</span><span>Multan, Pakistan</span></div></footer>
+  <a class="whatsapp" href="https://wa.me/923023558003?text=Hello%20CCTV%20Expert%20Multan" target="_blank" rel="noopener" aria-label="Chat with CCTV Expert on WhatsApp">☏ WhatsApp</a>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => {
+      const opened = navLinks.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(opened));
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('quoteForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const data = new FormData(this);
+      const subject = encodeURIComponent('CCTV Enquiry - ' + data.get('name'));
+      const body = encodeURIComponent(
+        'Name: ' + data.get('name') + '\\n' +
+        'Phone: ' + data.get('phone') + '\\n' +
+        'Requirement: ' + data.get('need') + '\\n\\n' +
+        'Details: ' + (data.get('message') || 'Not provided')
+      );
+      window.location.href = 'mailto:usmanyamin26@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
